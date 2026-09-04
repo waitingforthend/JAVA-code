@@ -89,6 +89,8 @@ public class CalculadoraHEv4 {
 
         long salarioLiquidoArredondado = Math.round(salarioLiquido);
         System.out.print("Salário líquido aproximado: " + "R$ " + salarioLiquidoArredondado);
+        System.out.println("Pressione Enter para sair");
+        sc.nextLine();
 
     }
 }
